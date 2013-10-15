@@ -1,0 +1,13 @@
+{application, mrroboto,
+ [
+  {description, "mrroboto - Kazoo Whapp for Scheduled Outbound Calls"},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mrroboto_app, []}},
+  {env, []}
+ ]}.
